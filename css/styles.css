@@ -468,95 +468,6 @@ body {
   fill: #404bbf;
 } */
 
-/* ------------------------Підвал--------------------------- */
-
-.footer {
-  background: var(--titel-text-color);
-  padding: 100px 0;
-}
-
-.footer-logo {
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.footer-logo {
-  display: inline-block;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  margin-bottom: 16px;
-  color: var(--button-text-color);
-}
-
-.footer-studio {
-  color: var(--second-background-color);
-}
-
-.footer-text {
-  color: var(--footer-text-color);
-  letter-spacing: 0.02em;
-}
-
-.footer-container {
-  display: flex;
-}
-
-.footer-logo-container {
-  margin-right: 120px;
-  width: 264px;
-  /* outline: 1px solid red; */
-}
-
-.footer-soc-container {
-  width: 208px;
-  /* outline: 1px solid red; */
-}
-
-.footer-soc-titel {
-  color: var(--footer-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-}
-
-.footer-soc-list {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-}
-
-.footer-soc-item {
-  width: 40px;
-  height: 40px;
-}
-
-.footer-soc-link {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: var(--button-text-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-soc-icon {
-  fill: #ffffff;
-}
-
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-  background-color: #31d0aa;
-}
-
 /*-------------------- Портфоліо --------------------*/
 
 .section.samples {
@@ -682,7 +593,153 @@ body {
   color: var(--primary-text-color);
 }
 
-/* ---------------Модальне вікно------------------ */
+/* ------------------------Підвал--------------------------- */
+
+.footer {
+  background: var(--titel-text-color);
+  padding: 100px 0;
+}
+
+.footer-logo {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-logo {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+  color: var(--button-text-color);
+}
+
+.footer-studio {
+  color: var(--second-background-color);
+}
+
+.footer-text {
+  color: var(--footer-text-color);
+  letter-spacing: 0.02em;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
+  width: 264px;
+  /* outline: 1px solid red; */
+}
+
+.footer-soc-container {
+  margin-right: 80px;
+  width: 208px;
+
+  /* outline: 1px solid red; */
+}
+
+.footer-soc-titel {
+  color: var(--footer-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--button-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-soc-icon {
+  fill: #ffffff;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-form-container {
+  width: 453px;
+  /* outline: 1px solid red; */
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer-input {
+  font-size: 12px;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--color-white);
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--background-body-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  background-color: var(--button-text-color);
+  color: var(--background-body-color);
+  fill: var(--background-body-color);
+  border-color: transparent;
+  border-radius: 4px;
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  color: var(--background-body-color);
+  font-weight: 500;
+  line-height: 1.5;
+  background: var(--button-hover-background);
+}
+
+/* --------------------Модальне вікно---------------------- */
 
 .backdrop {
   position: fixed;
@@ -752,7 +809,7 @@ body {
   overflow: hidden;
 }
 
-/* -------------------Форма-Модалка----------------------- */
+/* -------------------Форма Модалки----------------------- */
 
 .modal-titel {
   color: var(--titel-text-color);
@@ -781,6 +838,9 @@ body {
   padding-top: 11px;
   padding-bottom: 11px;
   outline: transparent;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input:focus {
   border-color: var(--button-text-color);
@@ -788,6 +848,9 @@ body {
 
 .modal-input:focus + .modal-input-icon {
   fill: var(--button-text-color);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-label-text {
@@ -809,7 +872,7 @@ body {
   position: absolute;
   top: 50%;
   left: 19px;
-  transform: translateY(-50%, -50%);
+  transform: translateY(50%);
   fill: var(--titel-text-color);
 }
 
@@ -856,7 +919,6 @@ body {
 .check-text {
   display: flex;
   gap: 8px;
-  /* margin-left: 8px; */
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.04em;
@@ -887,6 +949,13 @@ body {
 
 .madal-check:checked + .check-text::before {
   background-color: var(--button-hover-background);
+  border: none;
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* -----------------------Modal-Submit-------------------------- */
