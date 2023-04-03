@@ -413,49 +413,33 @@
           </svg>
         </button>
         <form class="modal-form">
-          <div class="input-wrap">
-            <label class="modal-field">
-              <span class="modal-label-text">Name</span>
-              <input
-                class="modal-input"
-                type="text"
-                name="user-name"
-                required
-              />
-              <svg class="modal-input-icon" width="18" height="24">
-                <use href="./images/icons2.svg#icon-person"></use>
-              </svg>
-            </label>
-          </div>
-          <div class="input-wrap">
-            <label class="modal-field">
-              <span class="modal-label-text">Phone</span>
-              <input
-                class="modal-input"
-                type="tel"
-                name="user-phone"
-                required
-              />
-              <svg class="modal-input-icon" width="18" height="24">
-                <use href="./images/icons2.svg#icon-phone"></use>
-              </svg>
-            </label>
-          </div>
-          <div class="input-wrap">
-            <label class="modal-field">
-              <span class="modal-label-text">Email</span>
-              <input
-                class="modal-input"
-                type="email"
-                name="user-email"
-                required
-              />
-              <svg class="modal-input-icon" width="18" height="24">
-                <use href="./images/icons2.svg#icon-email"></use>
-              </svg>
-            </label>
-          </div>
-          <div class="modal-field">
+          <label class="modal-field">
+            <span class="modal-label-text">Name</span>
+            <input class="modal-input" type="text" name="user-name" required />
+            <svg class="modal-input-icon" width="12" height="12">
+              <use href="./images/icons2.svg#icon-person"></use>
+            </svg>
+          </label>
+          <label class="modal-field">
+            <span class="modal-label-text">Phone</span>
+            <input class="modal-input" type="tel" name="user-phone" required />
+            <svg class="modal-input-icon" width="13" height="13">
+              <use href="./images/icons2.svg#icon-phone"></use>
+            </svg>
+          </label>
+          <label class="modal-field">
+            <span class="modal-label-text">Email</span>
+            <input
+              class="modal-input"
+              type="email"
+              name="user-email"
+              required
+            />
+            <svg class="modal-input-icon" width="15" height="12">
+              <use href="./images/icons2.svg#icon-email"></use>
+            </svg>
+          </label>
+          <div class="textarea-wrap">
             <label for="user-comments" class="modal-label-text">
               Comment
             </label>
@@ -472,7 +456,7 @@
               id="privacy"
               name="user-privacy"
               value="true"
-              class="madal-check"
+              class="madal-check visually-hidden"
             />
             <label for="privacy" class="check-text"
               >I accept the terms and conditions of the
@@ -480,9 +464,7 @@
             >
           </div>
 
-          <div class="modal-button">
-            <button type="submit" class="button-submit">Send</button>
-          </div>
+          <button type="submit" class="button-submit">Send</button>
         </form>
       </div>
     </div>
