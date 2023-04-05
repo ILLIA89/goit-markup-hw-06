@@ -847,9 +847,6 @@ body {
 
 .modal-input:focus + .modal-input-icon {
   fill: var(--button-text-color);
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-label-text {
@@ -876,6 +873,9 @@ body {
   left: 19px;
   transform: translateY(-50%);
   fill: var(--titel-text-color);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea-wrap {
@@ -898,6 +898,9 @@ body {
   padding: 8px 16px;
   letter-spacing: 0.04em;
   outline: transparent;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea::placeholder {
